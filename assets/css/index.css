@@ -1,0 +1,12 @@
+/* Importando fontes */
+@import url('./fonts.css');
+
+/* Definindo variaveis */
+:root{
+    --verde-principal: #2bca75f0;
+    --preto-botoes: #000000;
+    --branco-principal: #FFFFFF;
+    --branco-secundario: #EDF6FF;
+    --cinza-subtitulo: #ABABAB;
+}
+
