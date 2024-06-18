@@ -64,10 +64,11 @@ select{
     text-align: center;
     position: fixed;
     bottom: 0;
-    left: 0;
+    right: 0;
     margin: 0 30px 60px 30px;
     display: flex;
     flex-direction: column;
+    width: 90vw;
 }
 
 .buttom{
@@ -78,6 +79,7 @@ select{
     padding: 16px;
     border-radius: 15px;
     align-self: center;
+    margin: 0;
 }
 
 .buttom p{
@@ -94,4 +96,27 @@ select{
     display: flex;
     gap: 44px;
     font-size: 24px;
+}
+
+.fone_number{
+    color: var(--branco-secundario);
+    font-size: 20px;
+}
+
+.input_code{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+
+.input_code-number, .input_code-number::placeholder{
+    color: var(--branco-principal);
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    text-align: center;
+    width: 40px;
+    border-bottom: 1.5px var(--branco-principal) solid;
+    padding-bottom: .5em;
 }
