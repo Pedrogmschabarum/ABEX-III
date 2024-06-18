@@ -83,3 +83,15 @@ select{
 .buttom p{
     font-weight: 300;
 }
+
+.login_email{
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+}
+
+.login_email-item{
+    display: flex;
+    gap: 44px;
+    font-size: 24px;
+}
