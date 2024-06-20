@@ -151,7 +151,7 @@ select{
     font-size: 14px;
 }
 
-.text, .p_home{
+.texto, .p_home{
     color: var(--branco-principal);
     font-size: 20px;
     width: 90%;
